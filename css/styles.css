@@ -9,21 +9,72 @@ body {
     color: #212121;
 
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+img {
+    display: block;
+}
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+.conteiner {
+    width: 1200px;
+    margin: 0 auto;
+}
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
 /*--------Header----------*/
+.header .conteiner {
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.navi-link {
+    display: flex;
+}
+.navi-list-item:not(:last-child) {
+    margin-right: 46px;
+}
 .header-link {
     font-family: var(--secend-font);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.192em;
     color: #212121;
+    margin-right: 93px;
+    
+    
 }
 .logo {
     color: var(--secend-color);
 }
+
 .header-link:hover, .header-link:focus,
  .header-link:active {
-color: var(--secend-color);
+        color: var(--secend-color);
 }
 .navi-list-link {
     color: #212121;
@@ -37,7 +88,11 @@ color: var(--secend-color);
     font-family: var(--main-font);
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.142em;
+    line-height: 1.142em; 
+}
+.link-mail {
+    margin-left: auto;
+    margin-right: 50px;
 }
 .navi-list-link:hover, .navi-list-link:focus, .navi-list-link:active,
 .link-mail:hover, .link-mail:focus, .link-mail:active,
@@ -46,14 +101,30 @@ color: var(--secend-color);
 }
 /*--------End Header----------*/
 /*-------Body----------*/
+
+.efect .conteiner {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+
+}
 .efect-head {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.363em;
     color: white;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 200px;
+    margin-left: 452px;
+    margin-right: 452px;
+
+      
 }
 .efect {
     background-color: #2F303A;
+
 }
 .btn-service {
     font-family: var(--secend-font);
@@ -62,18 +133,38 @@ color: var(--secend-color);
     line-height: 1.875em;
     background-color: var(--secend-color);
     color: white;
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    width: 200px;
+    height: 50px;
+    
 }
 .btn-service:hover, .btn-service:focus, .btn-service:active {
     color: var(--secend-color);
 }
+.description .conteiner {
+    display: flex;
+    justify-content: center;
+}
+.description-list {
+    display: flex;
+    justify-content: center;
+}
+.description-list-item:not(:last-child){
+    margin-right: 30px;
+}
+
+
 .article-head {
     font-size: 14px;
     font-weight: 700;
     line-height: 1.142em;
+    margin-bottom: 10px;
 }
 .article-p {
     font-size: 14px;
-    
+    flex-wrap: wrap;
     line-height: 1.714em;
 }
 .working-head {

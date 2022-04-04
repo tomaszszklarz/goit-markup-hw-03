@@ -27,8 +27,9 @@ p {
     margin: 0;
     padding: 0;
 }
-img {
-    display: block;
+figure {
+    margin: 0;
+    padding: 0;
 }
 .list {
     list-style: none;
@@ -105,8 +106,9 @@ img {
 .efect .conteiner {
     display: flex;
     flex-direction: column;
-    align-content: center;
     align-items: center;
+    justify-content: center;
+    
 
 }
 .efect-head {
@@ -116,14 +118,13 @@ img {
     color: white;
     text-align: center;
     text-transform: uppercase;
-    margin-top: 200px;
-    margin-left: 452px;
-    margin-right: 452px;
-
-      
+    max-width: 696px;
 }
+
 .efect {
     background-color: #2F303A;
+    
+    
 
 }
 .btn-service {
@@ -154,8 +155,6 @@ img {
 .description-list-item:not(:last-child){
     margin-right: 30px;
 }
-
-
 .article-head {
     font-size: 14px;
     font-weight: 700;
@@ -171,23 +170,70 @@ img {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.166em;
+    text-align: center;
+    margin-bottom: 30px;
 }
 .teams-head {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.166em;
+    align-items: center;
+    margin-bottom: 50px;
 }
 .teams-caption {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.187em;
+    text-align: center;
+    margin-top: 30px;
 }
 .teams-caption-text {
    font-size: 16px;
     font-weight: 400;
     line-height: 1.187em; 
+    text-align: center;
 }
+.working {
+    display: flex;
+    align-content: center;
+}
+
+.teams .conteiner {
+    display: flex;
+}
+.teams .conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.teams-list {
+    display: flex;
+    
+}
+.teams-list :not(:last-child){
+    margin-right: 30px;
+}
+.teams {
+    background-color: #F5F4FA;
+    align-content: center;
+    
+}
+
 /*-------End Body-------*/
+/*--------footer---------*/
+.down {
+    margin-top: 30px;
+}
+.space {
+    margin-top: 9px;
+}
+.town {
+    margin-top: 20px;
+}
+.contact {
+    margin-top: 9px;
+}
+/*-------End footer--------*/
 /*------main Portfolio------*/
 .btn-list {
     font-weight: 500;
@@ -208,6 +254,12 @@ img {
     font-weight: 400;
     line-height: 1.875em;
 }
-
+.filtr .filtr-button {
+    display: flex;
+    
+}
+.filtr-list {
+    display: flex;
+}
 
 /*------ End main Portfolio-------*/

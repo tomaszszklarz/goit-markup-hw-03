@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@900&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
 </head>
 <body>
     <header class="header">
@@ -70,56 +70,66 @@
             
         </div>
         <section class="working section">
-            <h2 class="working-head">Czym się zajmujemy</h2>
-            <img src="./images/close-up-image-programer-working-his-desk-office_1098-18707-2.jpg" alt="praca programisty" width="370" height="294">
-            <img src="./images/web-ui-designers-are-developing-application-smartphones-team-creators-is-working-interface-mobile-phones_8119-2713.jpg" alt="obsługa telefonu" width="370" height="294">
-            <img src="./images/young-female-creative-artist-web-design-with-working-colour-selection-graphic-tablet_35674-1121.jpg" alt="wybór kolorów na tablecie" width="370" height="294">
+            <div class="conteiner">
+                <h2 class="working-head">Czym się zajmujemy</h2>
+                <img class="working-foto" src="./images/close-up-image-programer-working-his-desk-office_1098-18707-2.jpg" alt="praca programisty"
+                    width="370" height="294">
+                <img class="working-foto" src="./images/web-ui-designers-are-developing-application-smartphones-team-creators-is-working-interface-mobile-phones_8119-2713.jpg"
+                    alt="obsługa telefonu" width="370" height="294">
+                <img class="working-foto" src="./images/young-female-creative-artist-web-design-with-working-colour-selection-graphic-tablet_35674-1121.jpg"
+                    alt="wybór kolorów na tablecie" width="370" height="294">
+            </div>
         </section>
         <section class="teams section">
-            <h2 class="teams-head">Nasz zespół</h2>
-            <ul class="teams-list">
-                <li class="teams-list-item">
-                    <figure class="teams-set">
-                        <img src="./images/img-1.jpg" alt="zdjęcia Product Designer" width="270" height="260">
-                        <figcaption class="teams-caption">
-                            John Doe <br> <span class="teams-caption-text">Product Designer</span> 
-                        </figcaption>
-                    </figure>
-                </li>
-                <li class="teams-list-item">
-                    <figure class="teams-set">
-                        <img class="teams-foto" src="./images/img-2.jpg" alt="zdjęcia Frontend Developer" width="270" height="260">
-                        <figcaption class="teams-caption">
-                            John Doe <br> <span class="teams-caption-text">Frontend Developer</span> 
-                        </figcaption>
-                    </figure>
-                </li>
-                <li class="teams-list-item">
-                    <figure class="teams-set">
-                        <img class="teams-foto" src="./images/img-3.jpg" alt="zdjęcia Markieting" width="270" height="260">
-                        <figcaption class="teams-caption">
-                            John Doe <br> <span class="teams-caption-text">Markieting</span> 
-                        </figcaption>
-                    </figure>
-                </li>
-                <li class="teams-list-item">
-                    <figure class="teams-set">
-                        <img class="teams-foto" src="./images/img-4.jpg" alt="zdjęcia Ul Designer" width="270" height="260">
-                        <figcaption class="teams-caption">
-                            John Doe <br> <span class="teams-caption-text">Ul Designer</span> 
-                        </figcaption>
-                    </figure>
-                </li>
-            </ul>
+            <div class="conteiner our">
+                <h2 class="teams-head">Nasz zespół</h2>
+                <ul class="teams-list list">
+                    <li class="teams-list-item">
+                        <figure class="teams-set">
+                            <img src="./images/img-1.jpg" alt="zdjęcia Product Designer" width="270" height="260">
+                            <figcaption class="teams-caption">
+                                John Doe <br> <span class="teams-caption-text">Product Designer</span>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="teams-list-item">
+                        <figure class="teams-set">
+                            <img class="teams-foto" src="./images/img-2.jpg" alt="zdjęcia Frontend Developer" width="270" height="260">
+                            <figcaption class="teams-caption">
+                                John Doe <br> <span class="teams-caption-text">Frontend Developer</span>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="teams-list-item">
+                        <figure class="teams-set">
+                            <img class="teams-foto" src="./images/img-3.jpg" alt="zdjęcia Markieting" width="270" height="260">
+                            <figcaption class="teams-caption">
+                                John Doe <br> <span class="teams-caption-text">Markieting</span>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="teams-list-item">
+                        <figure class="teams-set">
+                            <img class="teams-foto" src="./images/img-4.jpg" alt="zdjęcia Ul Designer" width="270" height="260">
+                            <figcaption class="teams-caption">
+                                John Doe <br> <span class="teams-caption-text">Ul Designer</span>
+                            </figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+            
         </section>
     </main>
     <footer>
-        <a class="header-link" href="./index.html"><span class="logo">Web</span>Studio</a>
-        <address>
-            m. Warszawa, Aleje Jerozolimskie 27
-        </address>
-        <a class="link-mail" href="mailto:info@example.com">info@example.com</a> <br>
-        <a class="link-phone" href="tel:+48111111111">+48 111 111 111</a>
+        <div class="conteiner down">
+            <a class="header-link link" href="./index.html"><span class="logo">Web</span>Studio</a>
+            <address class="town">
+                m. Warszawa, Aleje Jerozolimskie 27
+            </address>
+            <p class="contact"><a class="link-mail link space" href="mailto:info@example.com">info@example.com</a></p> 
+            <p class="contact"><a class="link-phone link space" href="tel:+48111111111">+48 111 111 111</a></p>
+        </div>
     </footer>
 </body>
 </html>

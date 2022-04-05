@@ -66,8 +66,10 @@ figure {
     line-height: 1.192em;
     color: #212121;
     margin-right: 93px;
-    
-    
+}
+.header {
+    border: 1px solid #ECECEC;
+
 }
 .logo {
     color: var(--secend-color);
@@ -107,8 +109,8 @@ figure {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    
+    align-content: center;
+    justify-items: center;
 
 }
 .efect-head {
@@ -122,10 +124,10 @@ figure {
 }
 
 .efect {
+    display: flex;
     background-color: #2F303A;
-    
-    
-
+    min-height: 600px;
+    align-items: center;
 }
 .btn-service {
     font-family: var(--secend-font);
@@ -198,6 +200,7 @@ figure {
 .working {
     display: flex;
     align-content: center;
+    padding-top: 0;
 }
 
 .teams .conteiner {

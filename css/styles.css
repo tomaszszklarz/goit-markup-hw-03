@@ -143,6 +143,8 @@ figure {
 }
 .btn-service:hover, .btn-service:focus, .btn-service:active {
     color: var(--secend-color);
+    cursor: pointer;
+    color: white;
 }
 .description .conteiner {
     display: flex;
@@ -222,7 +224,8 @@ figure {
 /*-------End Body-------*/
 /*--------footer---------*/
 .down {
-    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .space {
     margin-top: 9px;
@@ -232,6 +235,7 @@ figure {
 }
 .contact {
     margin-top: 9px;
+    
 }
 /*-------End footer--------*/
 /*------main Portfolio------*/
@@ -239,10 +243,14 @@ figure {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.625em;
+    height: 38px;
+    padding: 6px 22px;
 }
 .btn-list:hover, .btn-list:focus, .btn-list:active {
     color: var(--secend-color);
     cursor: pointer;
+    background-color: #2196F3;
+    color: white;
 }
 .fotos-caption {
     font-size: 18px;
@@ -255,11 +263,40 @@ figure {
     line-height: 1.875em;
 }
 .filtr .filtr-button {
-    display: flex;
-    
+    display: flex; 
+    align-content: center;
+    justify-content: center;
 }
 .filtr-list {
     display: flex;
+    align-items: center;
 }
-
+.filtr-list-item:not(:last-child){
+    margin-right: 8px;
+}
+.filtr-list-item {
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+.fotos .conteiner {
+    display: flex;
+}
+.fotos-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-basis: calc(:100%/3);
+}
+.fotos {
+    padding-bottom: 94px;
+}
+.info {
+    background-color: #2F303A;
+}
+.town-down {
+    color: white;
+}
+.logo-down {
+    color: white;
+}
 /*------ End main Portfolio-------*/

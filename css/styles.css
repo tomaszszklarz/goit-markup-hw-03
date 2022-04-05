@@ -221,7 +221,6 @@ figure {
 .teams {
     background-color: #F5F4FA;
     align-content: center;
-    
 }
 
 /*-------End Body-------*/
@@ -281,6 +280,9 @@ figure {
     background: #F5F4FA;
     border-radius: 4px;
 }
+.filtr {
+    padding-bottom: 56px;
+}
 .fotos .conteiner {
     display: flex;
 }
@@ -292,6 +294,15 @@ figure {
 }
 .fotos {
     padding-bottom: 94px;
+}
+.fotos-list-item {
+    border: 1px solid #EEEEEE;
+    margin-top: 30px;
+}
+.fotos-caption {
+    padding-left: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .info {
     background-color: #2F303A;

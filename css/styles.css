@@ -253,7 +253,6 @@ figure {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.625em;
-    height: 38px;
     padding: 6px 22px;
 }
 .btn-list:hover, .btn-list:focus, .btn-list:active {
@@ -261,6 +260,7 @@ figure {
     cursor: pointer;
     background-color: #2196F3;
     color: white;
+    border-radius: 4px;
 }
 .fotos-caption {
     font-size: 18px;
@@ -287,9 +287,10 @@ figure {
 .filtr-list-item {
     background: #F5F4FA;
     border-radius: 4px;
+    
 }
 .filtr {
-    padding-bottom: 56px;
+    padding-bottom: 50px;
 }
 .fotos .conteiner {
     display: flex;
@@ -304,13 +305,15 @@ figure {
     padding-bottom: 94px;
 }
 .fotos-list-item {
-    border: 1px solid #EEEEEE;
     margin-top: 30px;
 }
+
 .fotos-caption {
     padding-left: 24px;
     padding-top: 20px;
     padding-bottom: 20px;
+    border: 1px solid #EEEEEE;
+    border-top: none;
 }
 .info {
     background-color: #2F303A;
